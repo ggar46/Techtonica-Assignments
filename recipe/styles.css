@@ -20,3 +20,14 @@ h2 {
 .imageAndIngred2 {
     width: 600px;
 }
+
+.left {
+    float: left;
+    width: 600px;
+
+}
+
+.right {
+    float: right;
+    width: 600px;
+}
