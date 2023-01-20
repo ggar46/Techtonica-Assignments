@@ -4,9 +4,11 @@
   }
 
 h1 {
-    color: #cd0891;
+    color: #be32be;
+    font-family: Georgia, serif !important;
 }
 
 h2 {
-    color: #a40b81;
+    color: #ca50ae;
+    font-family: Georgia, serif !important;
 }
