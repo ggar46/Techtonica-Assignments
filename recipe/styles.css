@@ -1,14 +1,22 @@
 * {
-    background-color: #e2cce2;
+    background-color: #dfa5df;
     font-family: Arial serif;
   }
 
 h1 {
-    color: #be32be;
+    color: #fffdff;
     font-family: 'Yeseva One', cursive;
 }
 
 h2 {
-    color: #ca50ae;
+    color: #d147b1;
     font-family: Georgia, serif !important;
+}
+
+.description {
+    width: 600px;
+}
+
+.imageAndIngred2 {
+    width: 600px;
 }
