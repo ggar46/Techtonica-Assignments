@@ -52,6 +52,6 @@ myDiv.appendChild(label);
 foodCheckBox(arrayFood);
 
 
-//REMOVED MANUAL LIST
+// REMOVED MANUAL LIST
 const ul = document.querySelector("ul");
 ul.remove;
