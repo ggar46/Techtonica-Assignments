@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <head>
     <meta charset=“utf-8”>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corn Bread</title>
     <link href="styles.css" rel="stylesheet" type="text/css"/> <!--connecting style sheet-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body id="bodytag">
       <div class="titleandDescript1">
         <div class="TOP">
           <h1> Pan De Elote  </h1>
@@ -25,18 +25,17 @@
           <a href="https://cdn0.recetasgratis.net/es/posts/0/8/2/pan_de_elote_en_licuadora_74280_orig.jpg">Picture Credit: Recetas Gratis </a>
         </div>
 
-        <div class="Ingredients"></div>
-          <h2> Ingredients </h2>
-              <ul>
-                <li>8 fresh ears of corn</li>
+        <div id="Ingredients"></div>
+          <h2 onclick="changeOtherH2()"> Ingredients </h2>
+              <ul id="myDiv">
+                <!-- <li>8 fresh ears of corn</li>
                 <li>1 can of Lechera</li>
                 <li>sugar (to taste)</li>
                 <li>8 eggs</li>
                 <li>2 1/2 cups of flour</li>
                 <li>2 tablespoons baking powder (Royal)</li>
                 <li>Vanilla</li>
-                <li>1 cup of milk</li>
-                <li>1 stick of butter</li>
+                <li>1 cup of milk</li> -->
               </ul>
         </div>
     </div>
@@ -51,18 +50,19 @@
                 <li>Prepare the baking container for the oven with butter and flour.</li>
                 <li>Right before adding the mixture into the oven, mix in the Royal.</li>
               </ol>
-        </div>
+            </div>
       
 
-        <div class="links">
-          <h2> Different Recipes  </h2>
-          <ul>
-            <li><a href="https://www.foodnetwork.com/recipes/ina-garten/lemon-cake-recipe-1913110">Lemon Cake</a></li>
-            <li><a href="https://www.errenskitchen.com/orange-cake/">Orange Cake</a></li>
-            <li><a href="https://www.inspiredtaste.net/25753/carrot-cake-recipe/">Carrot Cake</a></li>
-            <li><a href="https://www.onceuponachef.com/recipes/french-apple-cake.html">Apple Cake</a></li>
+        <div>
+          <button onclick="myFunction()"> Different Recipes  </button>
+          <ul id="message">
+            <li><a class = "link" href="https://www.foodnetwork.com/recipes/ina-garten/lemon-cake-recipe-1913110">Lemon Cake</a></li>
+            <li><a class = "link" href="https://www.errenskitchen.com/orange-cake/">Orange Cake</a></li>
+            <li><a class = "link" href="https://www.inspiredtaste.net/25753/carrot-cake-recipe/">Carrot Cake</a></li>
+            <li><a class = "link" href="https://www.onceuponachef.com/recipes/french-apple-cake.html">Apple Cake</a></li>
           </ul>
-        </div
-  </div>
+        </div>
+      </div>  
+  <script src="script.js" ></script>
   </body>
 </html>
