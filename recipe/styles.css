@@ -49,7 +49,7 @@ button {
 
 @media (max-width: 600px){
     * {
-        background-color: lightgreen;
+        background-color: rgb(163, 238, 163);
     }   
 }
 
