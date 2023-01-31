@@ -30,7 +30,7 @@ const arrayFood = ["8 ears of corn", "1 can of lechera", "sugar (to taste)", "8 
 const myDiv = document.getElementById("myDiv");
 
 function foodCheckBox(array){
-    for(let i=0; i < array.length; i++){
+    for (let i=0; i < array.length; i++){
         let checkbox = document.createElement("input");
         ///checkbox.style.display = block;
 checkbox.type = "checkbox";
