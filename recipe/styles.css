@@ -62,6 +62,6 @@ button {
 @media (max-width: 600px) {
     button {
       border-radius: 50%;
-      color:blue;
+      color:rgb(10, 10, 241);
     }
   }
