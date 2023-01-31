@@ -40,3 +40,28 @@ h2 {
     width: 600px;
     margin-left: 30px;
 }
+
+button {
+    color: #d147b1;
+    font-family: Georgia, serif !important;
+    margin-left: 30px;  
+}
+
+@media (max-width: 600px){
+    * {
+        background-color: rgb(163, 238, 163);
+    }   
+}
+
+@media (max-width: 600px){
+    h2 {
+        color:rgb(11, 11, 239);
+    }
+}
+
+@media (max-width: 600px) {
+    button {
+      border-radius: 50%;
+      color:rgb(10, 10, 241);
+    }
+  }
