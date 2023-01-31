@@ -32,7 +32,7 @@ const myDiv = document.getElementById("myDiv");
 function foodCheckBox(array){
     for(let i=0; i < array.length; i++){
         let checkbox = document.createElement("input");
-        //checkbox.style.display = block;
+        ///checkbox.style.display = block;
 checkbox.type = "checkbox";
 checkbox.name = "name";
 checkbox.value = "value";
