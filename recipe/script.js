@@ -18,7 +18,7 @@ function myFunction() {
 }
 
 
-// //ADDED LIST ITEM
+// ADDED LIST ITEM
 // let newListItem = document.createElement('li');
 // let word1 = newListItem.textContent = '1 stick of butter';
 // document.querySelector('ul').appendChild(newListItem);
