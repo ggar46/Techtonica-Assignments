@@ -1,12 +1,14 @@
 body {
-    background-color: #5ab181;
+    background-color: #96bbea;
     margin: 30px;
     border-style:hidden;
     color: black;
-    font-size:larger;
+    font-size:medium;
+    font-family: 'Merriweather', serif;
 }
 
 h1{
+    font-family: 'Merriweather', serif;
     color: white;
 }
 
@@ -14,9 +16,9 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 350px;
     flex-direction: row;
-    background-color: #109068;
+    background-color: #779dea;
 }
 
  #me {
@@ -70,5 +72,6 @@ h2 {
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 20px;
+    font-family: 'Merriweather', serif;
     color: azure;
 }
