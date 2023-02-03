@@ -1,7 +1,7 @@
 body {
     background-color: #96bbea;
     margin: 30px;
-    border-style:hidden;
+    border-style:ridge;
     color: black;
     font-size:medium;
     font-family: 'Merriweather', serif;
