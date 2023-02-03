@@ -24,9 +24,11 @@
 
   <h2>About Me</h2>
   <div class="container">
-    <p>
-      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</li>
-    </p>
+    <div id="paragraph">
+      <p>
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</li>
+      </p>
+    </div>
 
     <ul>
       <li>☎️ : (123) 456-7890</li>
@@ -37,30 +39,43 @@
   </div>
 
   <h2>Contact Information</h2>
-  <div class="bucket">
+  <div class="form">
     <form action="/action_page.php">
-      <label for="fname">*First name:</label><br>
-      <input type="text" id="fname" name="fname" required ><br>
-      <label for="lname">*Last name:</label><br>
-      <input type="text" id="lname" name="lname" required ><br>
-      <label for="email">*Email:</label><br>
-      <input type="email" id="email" name="email" required ><br>
-      <label for="address">Address:</label><br>
-      <input type="text" id="address" name="address" ><br>
-      <label for="contact">Contact:</label><br>
-      <input type="number" id="contact" name="contact" ><br>
-      <input type="submit" value="Submit">
+      <div  class="listitem">
+        <label for="name">*Name:</label><br>
+        <input type="text" id="name" name="name" required ><br>
+          <div class="error"></div>
+      </div>
+
+      <div class="listitem">
+        <label for="email">*Email:</label><br>
+        <input type="email" id="email" name="email" required ><br>
+          <div class="error"></div>
+      </div>
+
+      <div class="listitem">
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" ><br>
+          <div class="error"></div>
+      </div>
+
+      <div class="listitem">
+        <label for="contact">Contact:</label><br>
+        <input type="number" id="contact" name="contact" ><br>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+
     </form> 
   
    
   </div>
 
   <h2 id="centerTitle">Projects</h2>
-  <div id="projects">
-    <img src="file:///Users/tpl622_2/Downloads/Pink%20Gradient%20Monogram%20Circle%20Photography%20Logo%20Square%20Business%20Card.png" alt="scrappy">
-    <img src="file:///Users/tpl622_2/Downloads/Pink%20Gradient%20Monogram%20Circle%20Photography%20Logo%20Square%20Business%20Card%20(1).png" alt="scooby">
-    <img src="file:///Users/tpl622_2/Downloads/Pink%20Gradient%20Monogram%20Circle%20Photography%20Logo%20Square%20Business%20Card%20(2).png" alt="yellow scrappy">
-    <img src="file:///Users/tpl622_2/Downloads/Pink%20Gradient%20Monogram%20Circle%20Photography%20Logo%20Square%20Business%20Card%20(3).png" alt="mystery machine">
+  <div class="projects">
+    <a href="Pink Gradient Monogram Circle Photography Logo Square Business Card.pngw=100" ><img src="file:///Users/tpl622_2/Downloads/Pink%20Gradient%20Monogram%20Circle%20Photography%20Logo%20Square%20Business%20Card.png" alt="scrappy" style="width:100px;height:100px;"/></a>
+    <a href="https://github.com/ggar46/code-challenges" ><img src="file:///Users/tpl622_2/Downloads/Pink%20Gradient%20Monogram%20Circle%20Photography%20Logo%20Square%20Business%20Card%20(1).png" alt="scooby" style="width:100px;height:100px;"/></a>
+    <a href="https://github.com/ggar46/code-challenges" ><img src="file:///Users/tpl622_2/Downloads/Pink%20Gradient%20Monogram%20Circle%20Photography%20Logo%20Square%20Business%20Card%20(2).png" alt="yellow scrappy" style="width:100px;height:100px;"/></a>
+    <a href="https://github.com/ggar46/code-challenges" ><img src="file:///Users/tpl622_2/Downloads/Pink%20Gradient%20Monogram%20Circle%20Photography%20Logo%20Square%20Business%20Card%20(3).png" alt="mystery machine" style="width:100px;height:100px;"/></a>
   </div>
 
   <script src="script.js"></script>

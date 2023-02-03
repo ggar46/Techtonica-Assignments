@@ -1,5 +1,5 @@
 body {
-    background-color: #96bbea;
+    background-color: #93c0f0;
     margin: 30px;
     border-style:ridge;
     color: black;
@@ -9,7 +9,7 @@ body {
 
 h1{
     font-family: 'Merriweather', serif;
-    color: white;
+    color: rgb(237, 241, 244);
 }
 
 #imageAndText {
@@ -18,7 +18,8 @@ h1{
     align-items: center;
     height: 350px;
     flex-direction: row;
-    background-color: #6e95e2;
+    /* background-color: #86a2d6; */
+    background-image: url(file:///Users/tpl622_2/Desktop/skypic.jpeg);
 }
 
  #me {
@@ -27,9 +28,9 @@ h1{
 } 
 
 .container {
-    display: flex;
+    display: flex; 
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     height: 250px;
     padding-left: 80px;
     padding-right: 80px;
@@ -40,7 +41,7 @@ h1{
 }
 
 
-.bucket {
+.form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -54,16 +55,15 @@ h1{
     width:  500px;
 } */
 
-#projects {
+#link1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    height: 150px;
-    padding-bottom: 50px;
+    height: 100px;
+    /* padding-bottom: 50px;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 15px;
-    height: 80px;
+    height: 80px;  */
 }
 
 h2 {
@@ -76,3 +76,20 @@ h2 {
     font-family: 'Merriweather', serif;
     color: white;
 }
+
+.listItem {
+    padding-top: 5px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* @media(max-width: 992px) {
+    #paragraph {
+        width: 50%;
+        display: flex;
+         justify-content: center; 
+    }
+} */
