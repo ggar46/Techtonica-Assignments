@@ -18,28 +18,38 @@ body {
     width: 200px;
 } 
 
-#container {
+.container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     height: 300px;
     padding-left: 80px;
     padding-right: 80px;
 }
 
-#bucket {
+.container :first-child{
+    width:  500px;
+}
+
+
+.bucket {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     height: 300px;
     padding-left: 80px;
     padding-right: 80px;
+}
+
+
+.bucket :first-child{
+    width:  500px;
 }
 
 #projects {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     height: 150px;
     padding-bottom: 50px;
     padding-left: 80px;
