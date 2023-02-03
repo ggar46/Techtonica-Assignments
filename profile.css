@@ -42,3 +42,8 @@ body {
     padding-left: 80px;
     padding-right: 80px;
 }
+
+#centerTitle {
+    display: flex;
+    justify-content: center;
+}
