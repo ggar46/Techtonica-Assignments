@@ -1,16 +1,22 @@
 body {
-    background-color: rgb(212, 107, 107);
-    margin: 15px;
-    border-style: ridge;
+    background-color: #5ab181;
+    margin: 30px;
+    border-style:hidden;
+    color: black;
+    font-size:larger;
+}
+
+h1{
+    color: white;
 }
 
 #imageAndText {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 400px;
     flex-direction: row;
-    flex-wrap: wrap;
+    background-color: #109068;
 }
 
  #me {
@@ -21,8 +27,8 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    height: 300px;
+    justify-content: flex-start;
+    height: 250px;
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -35,31 +41,34 @@ body {
 .bucket {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    height: 300px;
+    justify-content: flex-start;
+    height: 250px;
     padding-left: 80px;
     padding-right: 80px;
 }
 
 
-.bucket :first-child{
+/* .bucket :first-child{
     width:  500px;
-}
+} */
 
 #projects {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     height: 150px;
     padding-bottom: 50px;
     padding-left: 80px;
     padding-right: 80px;
+    padding-top: 15px;;
 }
 
 h2 {
     display: flex;
-    justify-content:flex-start;
-    padding-bottom: 50px;
+    justify-content: flex-start;
+    padding-bottom: 40px;
     padding-left: 80px;
     padding-right: 80px;
+    padding-top: 20px;
+    color: azure;
 }
