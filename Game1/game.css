@@ -4,3 +4,11 @@
     height: 70px;
     width: 300px;
 }
+
+#flipbutton{
+    display: inline-block;
+}
+
+#resetbutton{
+    display: inline-block;
+}
