@@ -4,6 +4,15 @@
     height: 70px;
     width: 300px;
 }
+
+/*added answerdiv*/
+#answerdiv{
+    border: solid;
+    border-color: purple;
+    height: 70px;
+    width: 300px;
+}
+
 /* when i put divs on inline-block, it is side to side but when I put buttons online block it doesn't */
 #flipbuttondiv{
     display: inline-block;
