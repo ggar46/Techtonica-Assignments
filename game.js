@@ -1,4 +1,4 @@
-document.body.style.backgroundColor = "#3540c2";
+document.body.style.backgroundColor = "rgb(41, 104, 213)";
 
 let flipbutton = document.querySelector("#flipbutton");
 let resetbutton = document.querySelector("#resetbutton");
