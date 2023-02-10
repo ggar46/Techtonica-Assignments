@@ -1,19 +1,20 @@
 let flipbutton = document.querySelector("#flipbutton");
-
 let resetbutton = document.querySelector("#resetbutton");
 
 let answerspace = document.querySelector("#answerdiv");
 answerspace.innerHTML = "";
 
 let divpic = document.querySelector("#picdiv");
+let divpic2 = document.querySelector("#picdiv2");
 
 let guessSpace = document.querySelector("#guessdiv");
 guessSpace.innerHTML = "";
 //Selects both radio buttons
 let ele = document.getElementsByName('guessinput');
-
 //Applies guessCoin function on click
 flipbutton.addEventListener("click", guessCoin);
+
+picdiv2.style.display = "none";
 
 
 function guessCoin() {
@@ -34,9 +35,10 @@ function guessCoin() {
     if (userEntry === false) {
     //add text to answer div if they do not enter anything
       answerspace.innerHTML += "<p>Please make a selection</p>";
+    //   picdiv.style.display = "block";
     } else {
     //if there is an entry, display the value of the radio button
-      guessSpace.innerHTML += `<p>You chose ${choice}</p>`;
+      guessSpace.innerHTML += `<p>You selected ${choice}</p>`;
     }
   
     //Create random number between 0 and 1
@@ -46,6 +48,8 @@ function guessCoin() {
     //if number is 0, coin is "tails"
     if (num0to1 === 0) {
       answerFlip = "tails";
+      picdiv.style.display = "none";
+      picdiv2.style.display = "block";
     } else {
     //if number is 1, then coin is "heads"
       answerFlip = "heads";
@@ -55,13 +59,14 @@ function guessCoin() {
     if (choice === answerFlip) {
     //if they match, then the user is correct and background color turns green
       divpic.style.backgroundColor = "#07da63";
-      answerspace.innerHTML += "You got it right!"
+      divpic2.style.backgroundColor = "#07da63";
+      answerspace.innerHTML += "Great guess!"
     } else {
     //otherwise, the background color turns red and the user is wrong
       divpic.style.backgroundColor = "red";
-      answerspace.innerHTML += "You got it wrong!"
+      picdiv2.style.backgroundColor = "red";
+      answerspace.innerHTML += "Try again"
     }
-  
   }
   
 
@@ -77,34 +82,9 @@ function guessCoin() {
       answerspace.innerHTML = "";
       divpic.style.backgroundColor = "";
       guessSpace.innerHTML = "";
+      picdiv2.style.display = "none";
+      picdiv.style.display = "block";
     }
   }
   
-  
 
-
-
-// let heads = 0;
-// let tails = 0;
-
-// //made function to disable buttonn for a few seconds
-// function disableButton(){
-
-// }
-
-// //multiply times 2 because you want number between 0 and 2 --> Math.floor(Math.random()*2)
-// //now we need background to turn green and say congrats
-// //radio button input to compare to randomized inside the function
-// flipbutton.addEventListener("click", () => {
-//     let num0to2 = Math.floor(Math.random()*2);
-//     if(num0to2 == 0){
-//         head++;
-//     } else {
-       
-//     disableButton();
-// });
-
-
-// //maka variables for each one
-// const headsguess = document.getElementByQuerySelector("#heads");
-// const tailsguess = document.getElementByQuerySelector("#tails");
