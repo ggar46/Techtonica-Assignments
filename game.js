@@ -1,3 +1,5 @@
+document.body.style.backgroundColor = "#1167b1";
+
 let flipbutton = document.querySelector("#flipbutton");
 let resetbutton = document.querySelector("#resetbutton");
 
@@ -35,12 +37,12 @@ function guessCoin() {
     if (userEntry === false) {
     //add text to answer div if they do not enter anything
       answerspace.innerHTML += "<p>Please make a selection</p>";
-    //   picdiv.style.display = "block";
     } else {
     //if there is an entry, display the value of the radio button
       guessSpace.innerHTML += `<p>You selected ${choice}</p>`;
     }
   
+
     //Create random number between 0 and 1
     let num0to1 = Math.floor(Math.random() * 2);
     //variable for the actual randomly generated answer
@@ -55,17 +57,16 @@ function guessCoin() {
       answerFlip = "heads";
     }
 
+
   //Compare the user's selection to the randomly generated answer
     if (choice === answerFlip) {
     //if they match, then the user is correct and background color turns green
-      divpic.style.backgroundColor = "#07da63";
-      divpic2.style.backgroundColor = "#07da63";
-      answerspace.innerHTML += "Great guess!"
+      answerspace.style.backgroundColor = "#23F0C7";
+      answerspace.innerHTML += "Great job!";
     } else {
     //otherwise, the background color turns red and the user is wrong
-      divpic.style.backgroundColor = "red";
-      picdiv2.style.backgroundColor = "red";
-      answerspace.innerHTML += "Try again"
+      answerspace.style.backgroundColor = "#E84855";
+      answerspace.innerHTML += "Incorrect, please try again";
     }
   }
   
@@ -80,11 +81,10 @@ function guessCoin() {
     //set all elements to be clear or empty
       ele[i].checked = false;
       answerspace.innerHTML = "";
-      divpic.style.backgroundColor = "";
+      answerspace.style.backgroundColor = "";
       guessSpace.innerHTML = "";
       picdiv2.style.display = "none";
       picdiv.style.display = "block";
     }
   }
   
-

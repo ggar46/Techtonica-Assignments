@@ -1,16 +1,17 @@
-#counterdiv{
-    border: solid;
-    border-color: purple;
-    height: 70px;
-    width: 300px;
+body{
+    color:white;
+    text-align: center;
 }
-
 /*added answerdiv*/
 #answerdiv{
     border: solid;
-    border-color: purple;
+    border-color: rgb(251, 251, 251);
     height: 70px;
-    width: 300px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 40%;
 }
 
 /* when i put divs on inline-block, it is side to side but when I put buttons online block it doesn't */
@@ -21,3 +22,24 @@
 #resetbuttondiv{
     display: inline-block;
 }
+
+#picdiv, #picdiv2{
+    border: solid;
+    border-color: white;
+    border-width: thick;
+    height: 300px;
+    width: 100px;
+    padding: 6.5px;
+    margin: auto;
+    width: 40%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+
+
