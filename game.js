@@ -1,4 +1,4 @@
-document.body.style.backgroundColor = "#1167b1";
+document.body.style.backgroundColor = "#3540c2";
 
 let flipbutton = document.querySelector("#flipbutton");
 let resetbutton = document.querySelector("#resetbutton");
@@ -13,6 +13,8 @@ let guessSpace = document.querySelector("#guessdiv");
 guessSpace.innerHTML = "";
 //Selects both radio buttons
 let ele = document.getElementsByName('guessinput');
+
+
 //Applies guessCoin function on click
 flipbutton.addEventListener("click", guessCoin);
 
@@ -62,12 +64,13 @@ function guessCoin() {
     if (choice === answerFlip) {
     //if they match, then the user is correct and background color turns green
       answerspace.style.backgroundColor = "#23F0C7";
-      answerspace.innerHTML += "Great job!";
+      answerspace.innerHTML += "<p>Correct! Great job!</p>";
     } else {
     //otherwise, the background color turns red and the user is wrong
       answerspace.style.backgroundColor = "#E84855";
-      answerspace.innerHTML += "Incorrect, please try again";
+      answerspace.innerHTML += "<p>Incorrect, please try again</p>";
     }
+    flipbutton.disabled = true;
   }
   
 
@@ -85,6 +88,6 @@ function guessCoin() {
       guessSpace.innerHTML = "";
       picdiv2.style.display = "none";
       picdiv.style.display = "block";
+      flipbutton.disabled = false;
     }
   }
-  
