@@ -76,8 +76,8 @@ export default function App() {
   return (
     <div className="App">
       <h1>Rock, Paper, Scissors</h1>
-      <p>Opponent - {compChoice}</p>
-      <p>User - {choice}</p>
+      <p className="words">Computer picked {compChoice}</p>
+      <p className="words">You picked {choice}</p>
       <p id="message">{message} </p>
 
       <div>
@@ -102,9 +102,10 @@ export default function App() {
         {" "}
         Reset{" "}
       </button>
-
+<div id="scoreboard">
       <p>User score: {userScore}</p>
       <p>Computer score: {compScore}</p>
+      </div>
     </div>
   );
 }

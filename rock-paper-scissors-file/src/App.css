@@ -1,15 +1,17 @@
 .App {
-  background-color: #a89de5;
-  height: 900px;
+  background-color: #806fe2;
+  height: 1000px;
   font-family: sans-serif;
   text-align: center;
+  color:rgb(244, 198, 242)
 }
 
 h1 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding: 25px;
   font-family: 'Space Mono', monospace;
-  font-size: 40px;
+  font-size: 43px;
+  color:rgb(244, 198, 242) !important;
 }
 
 img {
@@ -38,14 +40,34 @@ button {
 
 #message {
   font-size: xx-large;
+  font-family: 'Space Mono', monospace;
+  color: rgb(255, 255, 255) !important;
 }
 
 #reset {
   border: none;
   border-radius: 10% !important;
   box-shadow: 0 !important;
+  font-size: 16px !important;
+  margin-bottom: 10px;
 }
 
 #compHand {
   margin-bottom: 60px;
+  border-radius: 30% !important;
+  width: 180px !important;
+  height: 125px !important;
+}
+
+/* #scoreboard{
+  background-color: aliceblue;
+  width: 300px;
+  display: block;
+} */
+
+.words {
+  color:rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 100%;
+
 }
