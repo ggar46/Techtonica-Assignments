@@ -8,6 +8,8 @@
 h1 {
   margin-bottom: 40px;
   padding: 25px;
+  font-family: 'Space Mono', monospace;
+  font-size: 40px;
 }
 
 img {
