@@ -47,7 +47,28 @@ export default function App() {
       setCompImage(image[2]);
     }
   }
-
+  const comparisonFunc = (userGuess) => {
+    if (
+      (computerGuess === "paper" && userGuess === "rock") ||
+      (computerGuess === "rock" && userGuess === "scissors") ||
+      (computerGuess === "scissors" && userGuess === "paper")
+    ) {
+      setCompScore(compScore + 1);
+      setMessage("Computer won!");
+    } else if (
+      (userGuess === "paper" && computerGuess === "rock") ||
+      (userGuess === "rock" && computerGuess === "scissors") ||
+      (userGuess === "scissors" && computerGuess === "paper")
+    ) {
+      setUserScore(userScore + 1);
+      setMessage("You won!");
+    } else {
+      setMessage("It's a tie!");
+    }
+    setChoice(userGuess);
+    setCompChoice(computerGuess);
+    selectionImage();
+  };
   return (
     <div className="App">
       <h1>Rock, Paper, Scissors</h1>
