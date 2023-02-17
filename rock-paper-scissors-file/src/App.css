@@ -37,3 +37,9 @@ button {
 #message {
   font-size: xx-large;
 }
+
+#reset {
+  border: none;
+  border-radius: 10% !important;
+  box-shadow: 0 !important;
+}
