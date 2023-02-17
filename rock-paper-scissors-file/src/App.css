@@ -33,3 +33,7 @@ button {
   margin-top: 20px;
   border: 6px solid #a89de5;
 }
+
+#message {
+  font-size: xx-large;
+}
