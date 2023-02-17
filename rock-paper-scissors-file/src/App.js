@@ -76,6 +76,7 @@ export default function App() {
   };
   return (
     <div className="App">
+      <h1>Rock, Paper, Scissors</h1>
       <p>Opponent - {compChoice}</p>
       <p>User - {choice}</p>
       <p id="message">{message} </p>
