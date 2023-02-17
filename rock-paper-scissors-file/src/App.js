@@ -69,6 +69,10 @@ export default function App() {
     setCompChoice(computerGuess);
     selectionImage();
   };
+
+  const handleRockClick = () => {
+    comparisonFunc("rock");
+  };
   return (
     <div className="App">
       <h1>Rock, Paper, Scissors</h1>
