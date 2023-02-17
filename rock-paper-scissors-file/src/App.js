@@ -36,6 +36,8 @@ export default function App() {
     setMessage("");
   };
 
+  let computerGuess = randomGenerator();
+
   return (
     <div className="App">
       <h1>Rock, Paper, Scissors</h1>
