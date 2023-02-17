@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from "react";
+import "./styles.css";
 import Images from "./components/Images";
 
 const image = [
@@ -107,5 +108,3 @@ export default function App() {
     </div>
   );
 }
-
-export default App;
