@@ -16,6 +16,19 @@ export default function App() {
   const [message, setMessage] = useState("");
   const [compImage, setCompImage] = useState("");
 
+  const randomGenerator = () => {
+    let randNum = Math.floor(Math.random() * 3);
+    console.log(randNum);
+    if (randNum === 0) {
+      return "paper";
+    } else if (randNum === 1) {
+      return "rock";
+    } else if (randNum === 2) {
+      return "scissors";
+    }
+  };
+
+
   return (
     <div className="App">
       <h1>Rock, Paper, Scissors</h1>
