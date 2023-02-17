@@ -38,6 +38,16 @@ export default function App() {
 
   let computerGuess = randomGenerator();
 
+  function selectionImage() {
+    if (computerGuess === "rock") {
+      setCompImage(image[0]);
+    } else if (computerGuess === "paper") {
+      setCompImage(image[1]);
+    } else if (computerGuess === "scissors") {
+      setCompImage(image[2]);
+    }
+  }
+
   return (
     <div className="App">
       <h1>Rock, Paper, Scissors</h1>
