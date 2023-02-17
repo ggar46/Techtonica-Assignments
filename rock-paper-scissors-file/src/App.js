@@ -1,6 +1,5 @@
 import './App.css';
 import { useState } from "react";
-import "./styles.css";
 import Images from "./components/Images";
 
 const image = [
