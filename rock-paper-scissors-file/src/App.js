@@ -28,6 +28,13 @@ export default function App() {
     }
   };
 
+  const reset = () => {
+    setCompScore(0);
+    setUserScore(0);
+    setChoice("");
+    setCompChoice("");
+    setMessage("");
+  };
 
   return (
     <div className="App">
