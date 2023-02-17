@@ -75,8 +75,35 @@ export default function App() {
   };
   return (
     <div className="App">
-      <h1>Rock, Paper, Scissors</h1>
-       
+      <p>Opponent - {compChoice}</p>
+      <p>User - {choice}</p>
+      <p id="message">{message} </p>
+
+      <div>
+        <img id="compHand" src={compImage} />
+      </div>
+
+      <div className="handbuttons">
+        <button onClick={handleRockClick}>
+          <Images class="handbutton" image={image[0]} />
+        </button>
+        <button onClick={() => comparisonFunc("paper")}>
+          {" "}
+          <Images class="handbutton" image={image[1]} />
+        </button>
+        <button onClick={() => comparisonFunc("scissors")}>
+          {" "}
+          <Images class="handbutton" image={image[2]} />
+        </button>
+      </div>
+
+      <button id="reset" onClick={reset}>
+        {" "}
+        Reset{" "}
+      </button>
+
+      <p>User score: {userScore}</p>
+      <p>Computer score: {compScore}</p>
     </div>
   );
 }
