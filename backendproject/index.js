@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const books = require("./books");
+const tvprograms = require("./tvprograms");
 
 const app = express();
 
@@ -11,16 +11,16 @@ const PORT = 5000;
 
 //get all books
 app.get('/', (req,res) => {
-    return res.send(books);
+    return res.json(tvprograms);
 })
 
 //get one book
-app.get('/api/books/:bookID', cors(), async (req,res) => {
+app.get('/api/tvprograms/:showID', cors(), async (req,res) => {
     //returns number entered
-    let requestedBook = req.params.bookID;
-    for(let i=0; i<books.length; i++){
-        if(books[i].label === requestedBook){
-            return res.send(books[i]);
+    let requestedShow = req.params.showID;
+    for(let i=0; i<tvprograms.length; i++){
+        if(tvprograms[i].label === requestedShow){
+            return res.send(tvprograms[i]);
         }
     }
 })
