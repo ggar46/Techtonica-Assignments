@@ -50,9 +50,10 @@ const tvprograms = [
     {
       "label": "7",
       "title": "Community",
-      "seasons": 5,
-      "episodes": 62,
-      "rewatch": "no"
+      "year": 2009,
+      "seasons": 6,
+      "episodes": 110,
+      "rewatch": "maybe"
     }
   ];
 
