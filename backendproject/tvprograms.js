@@ -26,9 +26,10 @@ const tvprograms = [
     {
       "label": "4",
       "title": "Schitt's Creek",
-      "seasons": 5,
-      "episodes": 62,
-      "rewatch": "no"
+      "year": 2015,
+      "seasons": 6,
+      "episodes": 80,
+      "rewatch": "yes"
     },
     {
       "label": "5",
