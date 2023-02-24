@@ -34,9 +34,10 @@ const tvprograms = [
     {
       "label": "5",
       "title": "Parks and Rec",
-      "seasons": 5,
-      "episodes": 62,
-      "rewatch": "no"
+      "year": 2009,
+      "seasons": 7,
+      "episodes": 126,
+      "rewatch": "yes"
     },
     {
       "label": "6",
