@@ -8,42 +8,42 @@ const tvprograms = [
     },
     {
       "label": "2",
-      "title": "Breaking Bad",
+      "title": "Abbott Elementary",
       "seasons": 5,
       "episodes": 62,
       "rewatch": "no"
     },
     {
       "label": "3",
-      "title": "Breaking Bad",
+      "title": "You",
       "seasons": 5,
       "episodes": 62,
       "rewatch": "no"
     },
     {
       "label": "4",
-      "title": "Breaking Bad",
+      "title": "Schitt's Creek",
       "seasons": 5,
       "episodes": 62,
       "rewatch": "no"
     },
     {
       "label": "5",
-      "title": "Breaking Bad",
+      "title": "Parks and Rec",
       "seasons": 5,
       "episodes": 62,
       "rewatch": "no"
     },
     {
       "label": "6",
-      "title": "Breaking Bad",
+      "title": "The Good Place",
       "seasons": 5,
       "episodes": 62,
       "rewatch": "no"
     },
     {
       "label": "7",
-      "title": "Breaking Bad",
+      "title": "Community",
       "seasons": 5,
       "episodes": 62,
       "rewatch": "no"
