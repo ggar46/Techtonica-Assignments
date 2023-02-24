@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const books = require("./books");
-const BOOKS = require("./books");
 
 const app = express();
 
