@@ -42,9 +42,10 @@ const tvprograms = [
     {
       "label": "6",
       "title": "The Good Place",
-      "seasons": 5,
-      "episodes": 62,
-      "rewatch": "no"
+      "year": 2016,
+      "seasons": 4,
+      "episodes": 53,
+      "rewatch": "yes"
     },
     {
       "label": "7",
