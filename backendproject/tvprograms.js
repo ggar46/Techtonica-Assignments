@@ -18,8 +18,9 @@ const tvprograms = [
     {
       "label": "3",
       "title": "You",
-      "seasons": 5,
-      "episodes": 62,
+      "year": 2018,
+      "seasons": 4,
+      "episodes": 25,
       "rewatch": "no"
     },
     {
