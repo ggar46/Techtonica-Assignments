@@ -2,6 +2,7 @@ const tvprograms = [
     {
       "label": "1",
       "title": "Breaking Bad",
+      "year": 2008,
       "seasons": 5,
       "episodes": 62,
       "rewatch": "no"
