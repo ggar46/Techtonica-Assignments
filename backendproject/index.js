@@ -20,7 +20,7 @@ app.get('/api/tvprograms/:showID', cors(), async (req,res) => {
     let requestedShow = req.params.showID;
     for(let i=0; i<tvprograms.length; i++){
         if(tvprograms[i].label === requestedShow){
-            return res.send(tvprograms[i]);
+            return res.json(tvprograms[i]);
         }
     }
 })
