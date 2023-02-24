@@ -10,9 +10,10 @@ const tvprograms = [
     {
       "label": "2",
       "title": "Abbott Elementary",
-      "seasons": 5,
-      "episodes": 62,
-      "rewatch": "no"
+      "year": 2021,
+      "seasons": 2,
+      "episodes": 29,
+      "rewatch": "yes"
     },
     {
       "label": "3",
