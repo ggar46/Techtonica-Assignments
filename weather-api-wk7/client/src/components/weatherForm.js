@@ -3,6 +3,11 @@ import { useState } from "react";
 const WeatherForm = (props) =>{
   const [userCity, changeUserCity] = useState("");
 
+
+const handleChange = () => {
+
+}
+
   return (
       <div className="weather">
       <h1 className="App-header">Techtonica Weather Forecast App</h1>
@@ -13,6 +18,7 @@ const WeatherForm = (props) =>{
           placeholder="Please enter the city name"
           name="city"
           value={userCity}
+          onChange={handleChange}
         />
         <input type="submit" value="Submit" />
       </form>
