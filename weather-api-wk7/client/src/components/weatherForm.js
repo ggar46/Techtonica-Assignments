@@ -4,8 +4,8 @@ const WeatherForm = (props) =>{
   const [userCity, changeUserCity] = useState("");
 
 
-const handleChange = () => {
-
+const handleChange = (event) => {
+  changeUserCity(event.target.value);
 }
 
   return (
