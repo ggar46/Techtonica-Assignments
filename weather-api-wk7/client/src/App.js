@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <WeatherForm handleSubmit={handleSubmit}/>
-      {/* {!result ? <p>Please click the botton to see Data</p> : <WeatherCard data={result} /> } */}
+      {!result ? <p>Please click the botton to see Data</p> : <WeatherCard data={result} /> }
     </div>
   );
 }
