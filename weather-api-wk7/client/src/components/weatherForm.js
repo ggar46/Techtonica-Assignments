@@ -12,7 +12,7 @@ const WeatherForm = (props) =>{
           type="text"
           placeholder="Please enter the city name"
           name="city"
-          value={props.city}
+          value={userCity}
         />
         <input type="submit" value="Submit" />
       </form>
