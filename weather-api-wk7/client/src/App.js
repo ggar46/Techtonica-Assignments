@@ -22,14 +22,14 @@ function App() {
   }
 
  const handleSubmit = (e, city) =>{
-  // e.preventDefault();
-  // loadCity(city);
+  e.preventDefault();
+  loadCity(city);
  }
 
 
   return (
     <div className="App">
-      {/* <WeatherForm handleSubmit={handleSubmit}/> */}
+      <WeatherForm handleSubmit={handleSubmit}/>
       {/* {!result ? <p>Please click the botton to see Data</p> : <WeatherCard data={result} /> } */}
     </div>
   );
