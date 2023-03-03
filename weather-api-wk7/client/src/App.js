@@ -11,14 +11,14 @@ function App() {
   const loadCity = (city) => {
     fetch(`http://localhost:8081/api/weather/${city}`)
       .then((response) => response.json())
-    //   .then((result) => {
-    //     //console.log(result)
-    //     // setCity(result.weather[0].name);
-    //     console.log("result=", result);
-    //     setResult(result);
-    //   }
+      .then((result) => {
+        //console.log(result)
+        // setCity(result.weather[0].name);
+        console.log("result=", result);
+        setResult(result);
+      }
       
-    //   );
+      );
   }
 
  const handleSubmit = (e, city) =>{
