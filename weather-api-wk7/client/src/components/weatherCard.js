@@ -14,6 +14,19 @@ console.log("here", props.data);
                 {props.data.weather[0].description}
               </span>
             </p>
+
+            <p>
+              Maximum: <span className="data">
+                {props.data.main.temp_max} <sup>o</sup>F
+              </span>
+            </p>
+
+            <p>
+              Minimum: <span className="data">
+                {props.data.main.temp_min} <sup>o</sup>F
+              </span>
+            </p>
+
             <img src={`http://openweathermap.org/img/wn/${props.data.weather[0].icon}@4x.png`} alt={"Icon from Open Weather Api"}/>
             <p>
               Temperature: <span className="data">
@@ -25,6 +38,16 @@ console.log("here", props.data);
                 {props.data.main.feels_like} <sup>o</sup>F
               </span>
             </p>
+
+            <p>Sunrise: <span className="data">
+                 {props.data.sys.sunrise}
+            </span>
+            </p> 
+
+            <p>Sunset: <span className="data">
+                 {props.data.sys.sunset}
+            </span>
+            </p> 
 
             </div>
 
