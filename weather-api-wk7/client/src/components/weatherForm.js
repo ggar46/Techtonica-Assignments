@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const WeatherForm = (props) =>{
-
+  const [userCity, changeUserCity] = useState("");
 
   return (
       <div className="weather">
