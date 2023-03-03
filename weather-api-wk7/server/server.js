@@ -21,10 +21,12 @@ app.get("/api/weather/:city", (req, res) => {
   const requestedCity = req.params.city;
   
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${requestedCity}&appid=df4dc696102dd6129092d84b487c1aaa&units=imperial`)
-      
+    .then(async (data) => {
+    const weather = await data.json();
+    res.json(weather);
 });
 
-
+});
 
 
 
