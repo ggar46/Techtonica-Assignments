@@ -21,13 +21,23 @@ app.get("/", (req, res) => {
     res.json("Hello Techtonica Server for a Game");
   });
 
-// Make the GET request for the GAME Api for grabbing all the questions 
-
-
   // //hardcode the game response for testing reasons to don't saturate my API call. 
+// app.get('/api/game', (req, res) =>{
+//     res.json(fakedata);
+// })
+
+// Make the GET request for the GAME Api for grabbing all the questions
 app.get('/api/game', (req, res) =>{
-    res.json(fakedata);
+  fetch("https://opentdb.com/api.php?amount=10&category=14&difficulty=medium&type=boolean")
+  .then(response => response.json())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
 })
+
+
+
+
+
 
 
 
