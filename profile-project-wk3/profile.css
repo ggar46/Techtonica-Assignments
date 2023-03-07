@@ -1,0 +1,95 @@
+body {
+    background-color: #93c0f0;
+    margin: 30px;
+    border-style:ridge;
+    color: black;
+    font-size:medium;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    color: rgb(237, 241, 244);
+}
+
+#imageAndText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    flex-direction: row;
+    /* background-color: #86a2d6; */
+    background-image: url(file:///Users/tpl622_2/Desktop/skypic.jpeg);
+}
+
+ #me {
+    border-radius: 100%;
+    width: 170px;
+} 
+
+.container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    height: 250px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.container :first-child{
+    width:  500px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 250px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+/* .bucket :first-child{
+    width:  500px;
+} */
+
+#link1 {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    /* padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    height: 80px;  */
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+.listItem {
+    padding-top: 5px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* @media(max-width: 992px) {
+    #paragraph {
+        width: 50%;
+        display: flex;
+         justify-content: center; 
+    }
+} */
