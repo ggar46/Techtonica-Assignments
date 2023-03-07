@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ame., initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+    <div id="gametitle">
+        <h1>Coin Flip Game</h1>
+    </div>
+    
+    <div id="container1">
+      
+        <div id="guessdiv">
+          </div>
+
+        <figure id="picdiv">
+            <img src="file:///Users/tpl622_2/Desktop/frontofcoin-removebg-preview.png">
+        </figure>
+
+        <figure id="picdiv2">
+            <img src="file:///Users/tpl622_2/Desktop/backofcoin-removebg-preview.png">
+        </figure> 
+
+        <!-- added div where the answer will show up -->
+        <br>
+        <div id="answerdiv">
+        
+        </div> 
+
+        <div id="flipbuttondiv">
+            <br>
+            <button id = "flipbutton" type="button">Flip Coin</button>
+        </div>
+
+        <div id="resetbuttondiv">
+            <button id="resetbutton" type="reset">Reset Game</button>
+        </div>
+
+        <div id="userinputdiv">
+            <br>
+            <input name="guessinput" type="radio" id="heads" >
+            <label for="radio">Heads</label>
+
+            <input name="guessinput" type="radio" id="tails" >
+            <label for="radio"> Tails </label>
+        </div> 
+
+    </div>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+</html>

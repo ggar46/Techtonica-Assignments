@@ -1,0 +1,84 @@
+#gametitle{
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 25px;
+    color: white;
+}
+
+body{
+    color:white;
+    text-align: center;
+    font-size: 17px;
+}
+/*added answerdiv*/
+#answerdiv{
+    border-style: ridge;
+    border-color: rgb(251, 251, 251);
+    color: black;
+    border-radius: 25px;
+    height: 49px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 40%;
+    overflow: hidden;
+    font-family: verdana;
+}
+
+/* when i put divs on inline-block, it is side to side but when I put buttons online block it doesn't */
+#flipbuttondiv{
+    display: inline-block;
+}
+
+#resetbuttondiv{
+    display: inline-block;
+}
+
+#picdiv, #picdiv2{
+    border-style: ridge;
+    border-color: white;
+    border-width: thick;
+    border-radius: 25px;
+    height: 300px;
+    width: 100px;
+    padding: 6.5px;
+    margin: auto;
+    width: 40%;
+}
+
+#guessdiv {
+    background-color: #e26fc9;
+    width: 300px;
+    margin: auto;
+    font-family: verdana;
+    padding-top: .01px;
+    padding-bottom: .01px;
+   
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+
+button {
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 12px 28px;
+    transition-duration: 0.2s;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #e26fc9; 
+    color: white;
+}
+
+#heads, #tails{
+    height: 18px;
+    width: 18px;
+}
+
