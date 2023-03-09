@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
+console.log("this is what we want", process.env);
 const dataWeather = require("./data");
 const coord = require("./data");
 
@@ -19,8 +20,8 @@ app.get("/", (req, res) => {
 app.get("/api/weather/:city", (req, res) => {
   console.log("code reached here");
   const requestedCity = req.params.city;
-  
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${requestedCity}&appid=df4dc696102dd6129092d84b487c1aaa&units=imperial`)
+  // const appid = df4dc696102dd6129092d84b487c1aaa
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${requestedCity}&appid=${process.env.APP_ID}&units=imperial`)
     .then(async (data) => {
     const weather = await data.json();
     res.json(weather);
