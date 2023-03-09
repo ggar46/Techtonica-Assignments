@@ -21,43 +21,21 @@ app.get("/", (req, res) => {
     res.json("Hello Techtonica Server for a Game");
   });
 
-//hardcode the game response for testing reasons to don't saturate my API call. 
-// app.get('/api/game', (req, res) =>{
-//     res.json(fakedata);
-// })
-
-// Make the GET request for the GAME Api for grabbing all the questions
-
-//using async await
-app.get("/api/game", async (req, res) => {
-  try {
-    const URL = "https://opentdb.com/api.php?amount=10&category=11&difficulty=easy&type=boolean";
-    const apiRequest = await fetch(URL);
-    const questions = await apiRequest.json();
-    res.send(questions)
-} catch(err){
-  console.log(err);
-}
+// hardcode the game response for testing reasons to don't saturate my API call. 
+app.get('/api/game', (req, res) =>{
+    res.json(fakedata);
 })
 
-//using fetch
-// app.get('/api/game', (req, res) =>{
-//   const url = "https://opentdb.com/api.php?amount=10&category=11&difficulty=easy&type=boolean";  
-//   fetch(url)
-//   .then((res) => res.json())
-//   .then((data) => {
-//     res.send(data); 
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
-// })
-
-// app.get('/api/game', (req, res) =>{
-//   fetch("https://opentdb.com/api.php?amount=10&category=14&difficulty=medium&type=boolean")
-//   .then(res => res.json())
-//   .then(data => res.send(data))
-//   .catch(error => console.log('error', error));
+// Make the GET request for the GAME Api for grabbing all the questions
+// app.get("/api/game", async (req, res) => {
+//   try {
+//     const URL = "https://opentdb.com/api.php?amount=10&category=11&difficulty=easy&type=boolean";
+//     const apiRequest = await fetch(URL);
+//     const questions = await apiRequest.json();
+//     res.send(questions)
+// } catch(err){
+//   console.log(err);
+// }
 // })
 
 
