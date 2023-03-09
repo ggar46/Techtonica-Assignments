@@ -15,3 +15,12 @@ const fakedata = {"response_code":0,
 }]}
 
 export default fakedata;
+
+//answers should be
+/*
+true
+true
+false
+true 
+false
+*/
