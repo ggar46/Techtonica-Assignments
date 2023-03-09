@@ -9,7 +9,7 @@ const fakedata = {"response_code":0,
 {"category":"General Knowledge","type":"boolean","difficulty":"medium",
 "question":"Albert Einstein had trouble with mathematics when he was in school.","correct_answer":"False","incorrect_answers":["True"]},
 {"category":"General Knowledge","type":"boolean","difficulty":"medium",
-"question":"Fast food restaurant chains Carl&#039;s Jr. and Hardee&#039;s are owned by the same company.","correct_answer":"True","incorrect_answers":["False"]},
+"question":"Fast food restaurant chains Carl's Jr. and Hardee's are owned by the same company.","correct_answer":"True","incorrect_answers":["False"]},
 {"category":"General Knowledge","type":"boolean","difficulty":"medium",
 "question":"The pickled gherkin was first added to hamburgers because a US health law required all fast-food to include a source of Vitamin C.","correct_answer":"False","incorrect_answers":["True"]
 }]}
