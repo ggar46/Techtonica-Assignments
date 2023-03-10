@@ -20,6 +20,7 @@ const handleAnswer = (buttonAnswer) => {
     changeAnswer("False");
     changeStatus(true);
     let count = 0;
+    props.func(count);
     console.log(count);
   }
 }
@@ -29,10 +30,10 @@ const handleAnswer = (buttonAnswer) => {
         <div className={answer === "" ? "no-color": ((answer === "True") ? "green-div": "red-div")}>
         <div className='question-text'>{props.question.question}</div>
         <div className='answer-section'>
-		<button disabled={status} onClick={() => handleAnswer("True")}>True</button>
-		<button disabled={status} onClick={() => handleAnswer("False")}>False</button>
+		<button  disabled={status} onClick={() => handleAnswer("True")}>True</button>
+		<button  disabled={status} onClick={() => handleAnswer("False")}>False</button>
         </div>
-        {/* {answer === "" ? <p></p>:((answer === "True") ? <p>Correct</p> : <p>Incorrect</p>)} */}
+        {answer === "" ? <p></p>:((answer === "True") ? <p className="answerP">Correct! This is {props.question.correct_answer}</p> : <p className="answerP">Incorrect! This is {props.question.correct_answer}</p>)}
       </div>
     );
   };

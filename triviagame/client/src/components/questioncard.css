@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');   
+
+
+
 .red-div {
         /* Change background color */
-        background-color: rgb(243, 171, 171);
+        background-color: rgb(214, 104, 104);
       
         /* Add border */
         border: 1px solid #bacdd8;
@@ -11,11 +16,14 @@
         border-radius: 12px;
       
         width: 70%;
+
+        margin-bottom: 5px;
+
 }
 
 .green-div{
             /* Change background color */
-            background-color: rgb(178, 246, 203);
+            background-color: rgb(74, 197, 119);
       
             /* Add border */
             border: 1px solid #bacdd8;
@@ -26,11 +34,15 @@
             border-radius: 12px;
           
             width: 70%;
+
+            margin-bottom: 3px;
+
+
 }
 
 .no-color{
    /* Change background color */
-   background-color: white;
+   background-color: rgb(154, 187, 229);
 
    /* Add border */
    border: 1px solid #bacdd8;
@@ -41,7 +53,28 @@
    border-radius: 12px;
  
    width: 70%;
+
+   margin-bottom: 5px;
+
+   
 }
-button:focus {
-        background-color: #b992ef; /* Green */
+
+button {
+        transition-duration: 0.4s;
+        background-color: hsl(314, 63%, 65%); /* Green */
+        color: white;
+        font-size: 14px;
+      }
+
+button:hover{
+        background-color: #c0b4e8; /* Green */
+        border-radius: 4px;
+        color: rgb(255, 254, 252);
+        font-size: 14px;
+
 }
+
+.answerP{
+        font-family: 'Rubik', sans-serif;
+}
+
