@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');   
+
+
+
+.red-div {
+        /* Change background color */
+        background-color: #f582ae;
+      
+        /* Add border */
+        border: 1px solid #bacdd8;
+      
+        /* Add space between the border and the content */
+        padding: 8px;
+      
+        border-radius: 12px;
+      
+        width: 70%;
+
+        margin-bottom: 5px;
+
+}
+
+.green-div{
+            /* Change background color */
+            background-color: #80e1c6;
+      
+            /* Add border */
+            border: 1px solid #bacdd8;
+          
+            /* Add space between the border and the content */
+            padding: 8px;
+          
+            border-radius: 12px;
+          
+            width: 70%;
+
+            margin-bottom: 3px;
+
+
+}
+
+.no-color{
+   /* Change background color */
+   background-color: #daf4f8;
+
+   /* Add border */
+   border: 1px solid #bacdd8;
+ 
+   /* Add space between the border and the content */
+   padding: 8px;
+ 
+   border-radius: 12px;
+ 
+   width: 70%;
+
+   margin-bottom: 5px;
+
+   
+}
+
+button {
+        transition-duration: 0.4s;
+        background-color: #f3d2c1;
+        color: #001858;
+        font-size: 14px;
+      }
+
+button:hover{
+        background-color: #001858; /* Green */
+        border-radius: 4px;
+        color: #f5f6f7;
+        font-size: 14px;
+
+}
+
+.answerP{
+        font-family: 'Rubik', sans-serif;
+}
+
