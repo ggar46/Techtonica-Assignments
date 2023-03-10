@@ -4,13 +4,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 
 .App {
-  background-color: #004643;
+  background-color: #fef6e4;
   font-family: 'Space Mono', monospace;
   display:flex; 
   flex-direction:column; 
   font-size: medium;
   justify-content:center;
-  color:rgb(255, 255, 255);
+  color:#172c66;
 }
 
 .div-App{
@@ -21,7 +21,7 @@
   align-self: center;
   font-family: 'Rubik', sans-serif;
   font-size: x-large;
-  color:#fffffe;
+  color:#001858;
   font-weight: 700;
   height: 100px;
 }

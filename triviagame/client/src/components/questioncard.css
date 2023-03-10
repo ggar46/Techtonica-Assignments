@@ -5,7 +5,7 @@
 
 .red-div {
         /* Change background color */
-        background-color: rgb(214, 104, 104);
+        background-color: #f582ae;
       
         /* Add border */
         border: 1px solid #bacdd8;
@@ -23,7 +23,7 @@
 
 .green-div{
             /* Change background color */
-            background-color: rgb(74, 197, 119);
+            background-color: #abd1c6;
       
             /* Add border */
             border: 1px solid #bacdd8;
@@ -42,7 +42,7 @@
 
 .no-color{
    /* Change background color */
-   background-color: rgb(154, 187, 229);
+   background-color: #8bd3dd;
 
    /* Add border */
    border: 1px solid #bacdd8;
@@ -61,15 +61,15 @@
 
 button {
         transition-duration: 0.4s;
-        background-color: #f9bc60;
-        color: white;
+        background-color: #f3d2c1;
+        color: #001858;
         font-size: 14px;
       }
 
 button:hover{
         background-color: #c0b4e8; /* Green */
         border-radius: 4px;
-        color: rgb(255, 254, 252);
+        color: #001858;
         font-size: 14px;
 
 }
