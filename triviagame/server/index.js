@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 // Make the GET request for the GAME Api for grabbing all the questions
 app.get("/api/game", async (req, res) => {
   try {
-    const URL = "https://opentdb.com/api.php?amount=5&category=14&difficulty=easy&type=boolean";
+    const URL = "https://opentdb.com/api.php?amount=5&category=27&difficulty=hard&type=boolean";
     const apiRequest = await fetch(URL);
     const questions = await apiRequest.json();
     res.send(questions)
