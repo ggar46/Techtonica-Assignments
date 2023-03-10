@@ -61,7 +61,7 @@
 
 button {
         transition-duration: 0.4s;
-        background-color: hsl(314, 63%, 65%); /* Green */
+        background-color: #f9bc60;
         color: white;
         font-size: 14px;
       }
