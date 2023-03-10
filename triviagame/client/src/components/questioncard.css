@@ -67,9 +67,9 @@ button {
       }
 
 button:hover{
-        background-color: #c0b4e8; /* Green */
+        background-color: #001858; /* Green */
         border-radius: 4px;
-        color: #001858;
+        color: #f5f6f7;
         font-size: 14px;
 
 }
