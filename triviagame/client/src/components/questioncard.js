@@ -39,13 +39,3 @@ const handleAnswer = (buttonAnswer) => {
   };
 
 export default QuestionCard;
-
-/*
-- now we want the count to count all of them and keep adding up instead of just counting one
-- or we can add to map?
-- we need to get the count from all of the cards, the question card is creating individual cards
-that are seen as a group not here, but in the game.js, meaning that I cannot iterate
-through all the cards here, but in game.js
-- Therefore, I need to add the score by adding up all the points in questioncard.js
-- Maybe, I can
-*/
